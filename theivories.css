@@ -1,0 +1,194 @@
+
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+
+}
+
+body { background-color:black;
+font-family:sans-serif;
+line-height: 1;
+background: linear-gradient(black, rgba(5, 5, 5, 0.9) 90%);
+font-size: 100%;}
+
+
+
+
+.main-image{
+
+display: block;
+margin: 0 auto 0 auto;
+  width: 51.28em;
+z-index: 1000;}
+
+.lovers{
+
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+  margin-top: 4em;
+
+width: 30.5em;}
+
+
+.topnav {
+
+  overflow: hidden;
+  float: right;
+  clear: left;}
+
+/* Hide the links inside the navigation menu  */
+.topnav #myLinks {
+  display: none;}
+
+/*  navigation menu links */
+
+#mylinks{
+
+  position: fixed;
+right: 0;
+top: 5em;}
+
+.topnav a {
+
+  color: #E0B5B5;
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size:2em;
+  display: block;
+  text-align: right;
+margin-bottom: 10px;
+  text-transform: uppercase;}
+
+/* the hamburger menu */
+ a.icon {
+
+  display: block;
+  position: fixed;
+  right: 0;
+  top: 0;
+  font-size: 3em}
+
+
+.topnav a:hover {
+
+transition-duration: 0.5s;
+text-shadow: 2px 2px 5px ;
+color: #705e62;
+background-color: rgba(54, 10, 36, 0.5);
+border-radius: 10px;}
+
+h1{
+  color: #E0B5B5;
+  font-size:3.5em;
+  margin-left: 2.5em}
+
+  .container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+
+padding-bottom: 23em;
+    width: 33.5em;
+    height: auto;
+
+
+  }
+  h2 {margin-top: 0px;
+    font-size: 1.2em;
+    text-align: left;
+  }
+  .albums {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    max-width: 270px;
+    right: 50%;
+  }
+  .about {
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    top:0%;
+    left: 55%;
+    margin-bottom: 17px;
+    font-size: 1em;
+    line-height: 1.6em;
+    margin-right: 5px;
+
+  }
+
+
+.container p,.container h2 {
+
+  color: white;}
+
+
+/* social links*/
+
+.social ul {
+
+list-style-type: none;
+display:flex;
+justify-content: space-around;
+  padding: 5em 0px 0px 0px;
+  width: 100%;}
+
+  a {
+
+    text-decoration: none;
+  color: #E0B5B5;
+  list-style-type: none;
+font-size: 1.5em;
+ }
+
+  a:hover {
+
+color: #705e62;
+transition-duration: 0.5s;}
+
+.ivories-copy {
+
+  color: white;
+  position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;}
+
+
+
+@media only screen and (max-width: 1080px){.topnav a {font-size: 1.75em;
+margin-bottom: 5px;
+padding: 10px;}
+.main-image{max-width: 70%;}
+a.icon{font-size: 3em;}
+.container{display: block;
+margin: 0px auto; }
+.albums {display: flex;
+justify-content: center;
+margin: 0px auto;}
+}
+
+@media only screen and (max-width: 864px){a.icon {font-size: 2.5rem;
+  }.albums {margin: 0px auto;
+  display: flex;
+  justify-content: center;}
+
+@media only screen and (max-width: 652px){.container {width: 25.125em;
+  height: 18.75
+}
+
+
+@media only screen and (max-width: 768px) {
+a.icon{font-size: 2rem;}
+.lovers {max-width: 70%;}
+}
+
+@media only screen and (max-width: 400px){.topnav a {font-size: 1.5em;}
+a.icon {font-size: 2rem}}
